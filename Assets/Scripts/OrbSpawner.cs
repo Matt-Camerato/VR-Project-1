@@ -62,7 +62,7 @@ public class OrbSpawner : MonoBehaviour
     private void GameOver()
     {
         //update game over panel before displaying screen
-        gameOverPanel.transform.GetChild(1).GetComponent<Text>().text = "Your Final Score Was: " + score.ToString();
+        gameOverPanel.transform.GetChild(1).GetComponent<Text>().text = "Your Final Score: " + score.ToString();
 
         timerText.SetActive(false);
         gameOverPanel.SetActive(true);
