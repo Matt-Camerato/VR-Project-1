@@ -60,6 +60,10 @@ public class XRStuff : MonoBehaviour
                 replayCountdown = 5;
             }
         }
+        else
+        {
+            replayCountdown = 5;
+        }
     }
 }
 
